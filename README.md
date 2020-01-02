@@ -1,6 +1,6 @@
 # Composer Freeze Versions
 
-Freeze versions of your composer's dependencies.
+> Freeze versions of your composer's dependencies.
 
 This command is especially useful while making a site live. It allows you to grab latest versions of your composer.lock which you tested you site against.
 
