@@ -6,7 +6,7 @@ use JsonSchema\Exception\RuntimeException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class FreezePackagesVersionCommand extends BaseCommand {
+class FreezeVersionsCommand extends BaseCommand {
 	protected function configure() {
 		$this->setName( 'versions-freeze' );
 		$this->setDescription( 'Freeze versions of your composer\'s dependencies depending on the lock file.' );
