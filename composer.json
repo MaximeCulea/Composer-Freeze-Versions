@@ -1,0 +1,35 @@
+{
+	"name":"maximeculea/composer-freeze-versions",
+	"type":"composer-plugin",
+	"minimum-stability":"stable",
+	"license":"GPL-3.0+",
+	"description":"Freeze versions of your composer's dependencies.",
+	"keywords":[
+		"composer",
+		"package",
+		"freeze",
+		"versions"
+	],
+	"authors":[
+		{
+			"name":"Maxime Culea",
+			"email":"contact@maximeculea.fr",
+			"homepage":"https://maximeculea.fr"
+		}
+	],
+	"require":{
+		"php":">=5.6",
+		"composer-plugin-api":"^1.1"
+	},
+	"require-dev":{
+		"composer/composer":"^1.4"
+	},
+	"autoload":{
+		"psr-4":{
+			"MaximeCulea\\ComposerScripts\\ComposerFreezeVersions\\":"src"
+		}
+	},
+	"extra":{
+		"class":"MaximeCulea\\ComposerScripts\\ComposerFreezeVersions\\FreezeVersions"
+	}
+}
