@@ -73,7 +73,7 @@ class FreezeVersionsCommand extends BaseCommand {
 			}
 
 			$composerFile->write( $composerJson );
-			$output->writeln( "All dependencies versions has been freezed." );
+			$output->writeln( "All dependencies versions have been freezed." );
 		} catch( RuntimeException $e ) {
 			$output->writeln( "<error>An error occurred</error>" );
 			$output->writeln( sprintf( "<error>%s</error>", $e->getMessage() ) );
