@@ -6,6 +6,7 @@
 	"description":"Freeze versions of your composer's dependencies.",
 	"keywords":[
 		"composer",
+		"composer-script",
 		"package",
 		"freeze",
 		"versions"
