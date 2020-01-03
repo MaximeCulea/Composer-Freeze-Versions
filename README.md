@@ -9,7 +9,7 @@ If you would like to go back to a staging status, use another command : [Make St
 # What?
 Your dependencies into composer.json will be automatically be changed from `"wpackagist-plugin/wordpress-seo":"@stable"` to `"wpackagist-plugin/wordpress-seo":"6.2"` 
 
-![See how it works](https://media.giphy.com/media/kFIBMBqzwh8OAjt2XJ/source.gif)
+![See how it works](https://media.giphy.com/media/SvvJiwe5FGvk9kZPAH/source.gif)
 
 # How?
 ## 1 - Add to [Composer](http://composer.rarst.net/)
